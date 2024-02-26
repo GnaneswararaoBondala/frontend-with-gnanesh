@@ -1,0 +1,51 @@
+p{
+    height:400px;
+    width:400px;
+    background:red;
+    position:relative;
+    color:white;
+    animation:colorChange 4s infinite;
+    font-size: 60px;
+    font-weight:100px;
+}
+p:hover{
+    opacity: 0;
+}
+@-webkit-keyframes colorChange
+{
+    0%
+    {
+        background:red;
+        left:0px;
+        top:0px;
+    }
+    10%
+    {
+        background:blue;
+        right:250px;
+        top: 300px;
+    }
+    30%
+    {
+        background-color: black;
+        left:500px;
+        top:300px;
+    }
+    50%
+    {
+        background-color: orange;
+        left:250px;
+        top:300px;
+    }
+    75%
+    {
+        background-color: brown;
+        left:500px;
+        top:300px;
+    }
+    100%
+    {
+        background:red;
+    }
+
+}
